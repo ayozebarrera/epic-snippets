@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+shouldComponentUpdate(nextProps, nextState) {
+  if (nextProps.${1} != this.props.${1})
+    return true;
+  return false;
+}
+]]></content>
+    <tabTrigger>scu</tabTrigger>
+    <scope>source.js</scope>
+    <description>React: shouldComponentUpdate: fn(np, ns) { ... }</description>
+</snippet>
